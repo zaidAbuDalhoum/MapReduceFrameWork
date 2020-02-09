@@ -1,0 +1,13 @@
+  
+This Application uses Multi-threading,Docker, and shell Scripts to run mapper and reducer containers which communicate with the central application using a ServerSocket.
+
+It's a GUI application (using javaFx).
+
+For this application to operate correctly please cd to this directory and
+run the following command to build the docker image used in the application :
+
+   docker image build -t mapreduce .
+
+and run the changePermissions.sh in sudo mode.
+
+
